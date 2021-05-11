@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
-git config --global alias.lgg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %Cgreen(%cr) %C(bold blue)<%an>%Creset %n%f%n' --abbrev-commit --all -5"
-git config --global alias.lg "log --graph --all --decorate --color -5"
+git config --global alias.lgg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %Cgreen(%cr) %C(bold blue)<%an>%Creset %n%f%n' --abbrev-commit -5"
+git config --global alias.lg "log --graph --decorate --color -5"
 
 git config --global color.status always
 git config --global color.diff always
