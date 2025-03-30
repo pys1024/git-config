@@ -17,3 +17,6 @@ git config --global core.editor vim
 git config --global user.name pengyongsheng
 git config --global user.email pys1024@sina.com
 # git config --global user.email pengyongsheng@goodix.com
+
+#git config --global http.proxy 127.0.0.1:8118
+#git config --global https.proxy 127.0.0.1:8118
